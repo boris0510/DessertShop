@@ -1,0 +1,11 @@
+.sub-form{
+  color: $primary;
+  background-color: $primary-500;
+  border: 0;
+  border-radius: 0;
+  height: 56px;
+  box-shadow: 0 0 0 0rem !important;
+  &:focus,:active{
+    background-color: $primary-500;
+  }  
+}

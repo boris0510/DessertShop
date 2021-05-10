@@ -1,0 +1,13 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "layout/index";
+@import "layout/banner";
+@import "layout/product";
+@import "layout/login";
+@import "layout/carts";
+@import "layout/checkout";
+@import "layout/footer";
+
+@import "utils/helpers";

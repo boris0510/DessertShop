@@ -1,0 +1,26 @@
+.banner{
+  $banner-height: 496px;
+  
+
+  .container{
+    position: relative;
+  }
+
+  .banner-img{
+    height: $banner-height;
+  }
+
+  .banner-context {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+
+  .banner-title{
+    height: 327px;
+    width: 90px;
+    position: absolute;
+    top: 40px;    
+    right: 40px;
+  }
+}

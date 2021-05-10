@@ -1,0 +1,46 @@
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+
+// bg, text color, border color
+.bg-primary-light {
+  background-color: $primary-500;
+}
+.bg-primary-lighter {
+  background-color: $primary-200;  
+}
+.text-primary-lighter {
+  color: $primary-200 !important;
+}
+.text-primary-light {
+  color: $primary-500 !important;
+}
+.border-primary-light {
+  border-color: $primary-500;
+}
+
+// write-mode
+.writing-vertical {
+  writing-mode: vertical-rl;
+}
+.writing-md-vertical {
+  @include media-breakpoint-up(md) {
+    writing-mode: vertical-rl;
+  }
+}
+
+.m0{
+  margin: 0;
+}
+
+.CenterCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  @media (max-width: 768px) { 
+    padding-top: 90px;
+  }
+}
